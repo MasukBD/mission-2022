@@ -1,6 +1,9 @@
 body{
     font-family: 'Poppins', sans-serif;
 }
+h2{
+    font-weight: 700;
+}
 .first-heading{
     font-family: 'Luxurious Roman', cursive;
     font-size: 40px;
@@ -17,7 +20,7 @@ body{
 }
 .part{
     display: flex;
-    margin-bottom: 50px;
+    margin-bottom: 100px;
 }
 .half-width{
     width: 50%;
@@ -62,4 +65,38 @@ body{
     background-color: rgb(223, 119, 119);
     padding: 7px;
     border-radius: 10px;
+}
+.box p{
+    text-align: justify;
+}
+.third-half-width{
+    width: 50%;
+    margin-left: 40px;
+}
+.third-half-width img{
+  width: 80%;
+  margin-left: 50px;
+}
+#third-one{
+    background-image: url(images/shapes/shape-1.png);
+    background-repeat: no-repeat;
+    background-size: 200px;
+    background-position: left;
+}
+.third-half-width p{
+    padding-right: 150px;
+}
+.fourth-half-width{
+    width: 50%;
+    margin-left: 10%;
+    
+}
+.fourth-half-width img{
+    width: 80%;
+}
+#fourth-one{
+    background-image: url(images/shapes/shape-1.png);
+    background-repeat: no-repeat;
+    background-size: 170px;
+    background-position: right;
 }
