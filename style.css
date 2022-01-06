@@ -1,0 +1,36 @@
+body{
+    font-family: 'Poppins', sans-serif;
+}
+.first-heading{
+    font-family: 'Luxurious Roman', cursive;
+    font-size: 40px;
+    margin-left: 5px;
+}
+.first-border{
+    border-left: 5px solid;
+    border-image: linear-gradient(black, orangered);
+    border-image-slice: 1;
+    margin: 4px;
+}
+.mission{
+    color: orangered;
+}
+.part{
+    display: flex;
+}
+.half-width{
+    width: 50%;
+    margin: 5%;
+}
+.half-width img{
+    width: 99%;
+}
+.link-button{
+    text-decoration: none;
+    background-image: linear-gradient(red, orangered);
+    font-weight: 700;
+    border-radius: 5px;
+    padding: 7px 30px;
+    color: white;
+}
+
