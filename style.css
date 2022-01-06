@@ -20,7 +20,7 @@ h2{
 }
 .part{
     display: flex;
-    margin-bottom: 100px;
+    margin-bottom: 50px;
 }
 .half-width{
     width: 50%;
@@ -99,4 +99,18 @@ h2{
     background-repeat: no-repeat;
     background-size: 170px;
     background-position: right;
+}
+.at-foot{
+    background-color: black;
+    
+}
+.red{
+    color: orangered;
+    font-family: 'Luxurious Roman', cursive;
+}
+#year{
+    font-family: 'Luxurious Roman', cursive;
+}
+.at-foot p{
+    color: white;
 }
