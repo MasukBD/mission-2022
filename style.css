@@ -17,6 +17,7 @@ body{
 }
 .part{
     display: flex;
+    margin-bottom: 50px;
 }
 .half-width{
     width: 50%;
@@ -33,4 +34,32 @@ body{
     padding: 7px 30px;
     color: white;
 }
-
+.orange{
+    color: orange;
+}
+.second-heading{
+    text-align: center;
+}
+.box{
+    width: 25%;
+    margin-left: 5%;
+    box-sizing: content-box;
+}
+.box img{
+    width: 30%;
+}
+#one{
+    background-color: rgb(194, 235, 235);
+    padding: 7px;
+    border-radius: 10px;
+}
+#two{
+    background-color: rgb(224, 117, 77);
+    padding: 7px;
+    border-radius: 10px;
+}
+#three{
+    background-color: rgb(223, 119, 119);
+    padding: 7px;
+    border-radius: 10px;
+}
